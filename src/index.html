@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src=https://cdn.tailwindcss.com></script>
+  <script src=https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp></script>
+  <link href=https://cdn.tailwindcss.com rel="stylesheet">
+</head>
+
+<body class="w-screen h-screen items-center justify-center overflow-x-hidden" style="background: #edf2f7;">
+  <!-- This is an example component -->
+  <!-- header -->
+  <div class="w-screen px-5 py-5 flex justify-between items-center bg-white border-b-2 w-screen" style="height: 8%">
+    <div class="font-semibold text-2xl">ChatteBotte</div>
+  </div>
+  <!-- end header -->
+
+  <div class="flex flex-row justify-between bg-white w-screen" style="height: 92%">
+    <div class="flex flex-col w-3/12 border-r-2 overflow-y-auto h-full" id="bots"></div>
+    <!-- end chat list -->
+    <!-- message -->
+    <div class="w-9/12 px-5 flex flex-col justify-between h-full">
+      <div id="messages" class="flex flex-col mt-5 h-10/12 overflow-y-auto"></div>
+      <div class="py-5 h-2/12">
+        <input class="w-full bg-gray-300 py-5 px-3 rounded-xl" id="input" type="text"
+          placeholder="Saisissez votre commande ici puis appuyez sur entrer... Saisissez help pour avoir des informations sur les commandes disponibles" />
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
